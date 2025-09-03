@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X-mode Index of AI Tools</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Add a simple icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>X-mode Index of AI Tools</h1>
+            <p>فهرسك الشامل لاستكشاف أدوات الذكاء الاصطناعي</p>
+            <p class="stats">يضم حاليًا <span id="tool-count">0</span> أداة موزعة على <span id="category-count">0</span> قسمًا.</p>
+            <div class="theme-switcher-container">
+                <label class="theme-switcher">
+                    <input type="checkbox" id="theme-switcher-checkbox">
+                    <span class="slider"></span>
+                </label>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="search-container">
+            <i class="fas fa-search search-icon"></i>
+            <input type="text" id="searchInput" placeholder="ابحث عن أداة في القسم المحدد...">
+        </div>
+
+        <div id="main-layout">
+            <div id="content-area">
+                <!-- The tool cards will be dynamically generated here -->
+            </div>
+            <div id="sidebar">
+                <!-- The category navigation will be dynamically generated here -->
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 X-mode Index of AI Tools. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>
