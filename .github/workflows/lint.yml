@@ -1,0 +1,25 @@
+name: Lint
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Use Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '16.x'
+        cache: 'npm'
+    - run: npm ci || npm install
+    - name: Validate JSON structure
+      run: |
+        for file in tools/*.js; do
+          node -e "try { require('./$file'); console.log('$file is valid'); } catch(e) { console.error('Error in $file:', e); process.exit(1); }"
+        done

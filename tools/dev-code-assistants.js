@@ -21,22 +21,24 @@ export default [
     },
     
     {
-        "name": "Amazon CodeWhisperer",
-        "description": "رفيق ترميز من أمازون، يقدم اقتراحات للكود وهو مجاني للاستخدام الفردي.",
-        "url": "https://aws.amazon.com/codewhisperer/",
+        "name": "Amazon Q Developer",
+        "description": "مساعد ذكاء اصطناعي شامل للمطورين من AWS، تطور من CodeWhisperer ليغطي دورة حياة التطوير بأكملها.",
+        "url": "https://aws.amazon.com/q/developer/",
         "category": "dev-code-assistants",
         "tags": [
             "code-assistant",
             "aws",
-            "autocomplete",
-            "free"
+            "generative-ai",
+            "devops"
         ],
         "details": {
-            "pricingSummary": "مجاني للاستخدام الفردي، مع خطة مدفوعة للفرق.",
+            "pricingSummary": "خطة مجانية للأفراد، وخطة احترافية (19$/مستخدم/شهر) للشركات.",
             "keyFeatures": [
-                "اقتراحات للكود في الوقت الفعلي",
-                "مسح أمني للكود",
-                "تكامل مع أشهر بيئات التطوير (IDEs)"
+                "قدرات برمجية وكيلية (Agentic) لتنفيذ المهام من الوصف النصي.",
+                "إصلاح الشفرات البرمجية المدعوم بالذكاء الاصطناعي لتصحيح الثغرات الأمنية.",
+                "فهم عميق لخدمات AWS وتقديم المساعدة في البنية التحتية ككود (IaC).",
+                "تكامل واسع مع بيئات التطوير الشهيرة مثل VS Code و JetBrains.",
+                "يستخدم نماذج متعددة بما في ذلك Claude من Anthropic."
             ]
         }
     },
@@ -723,21 +725,23 @@ export default [
     },
     {
         "name": "GitHub Copilot",
-        "description": "مساعد برمجي لإكمال الأكواد مباشرة في المحرر، مدعوم بنماذج OpenAI.",
+        "description": "مساعد ذكاء اصطناعي متقدم للمطورين، يقدم ميزات تتجاوز إكمال الكود لتشمل البرمجة المستقلة وفهم سياق المشاريع.",
         "url": "https://github.com/features/copilot",
         "category": "dev-code-assistants",
         "tags": [
             "code-assistant",
             "autocomplete",
-            "openai",
+            "generative-ai",
             "ide-extension"
         ],
         "details": {
-            "pricingSummary": "اشتراك شهري (حوالي 10$)، ومجاني للطلاب والمشاريع المفتوحة المصدر المعتمدة.",
+            "pricingSummary": "خطط متنوعة للأفراد (10$/شهر)، والشركات (19$/مستخدم/شهر)، والمؤسسات (39$/مستخدم/شهر).",
             "keyFeatures": [
-                "إكمال الكود الذكي",
-                "تحويل التعليقات إلى كود",
-                "تكامل مباشر في المحرر"
+                "يعمل بنماذج متقدمة مثل GPT-5 و Gemini 2.5 Pro.",
+                "وكيل برمجة مستقل (Agent) يمكنه حل المشاكل وإنشاء طلبات السحب.",
+                "فهم لسياق المشروع بالكامل في نسخة Enterprise.",
+                "اقتراح رسائل الـ Commit بناءً على التغييرات.",
+                "تكامل مع مجموعة واسعة من بيئات التطوير بما في ذلك VS Code, JetBrains, و Xcode."
             ]
         }
     },
@@ -1162,7 +1166,7 @@ export default [
         }
     },
     {
-        "name": "",
+        "name": "OpenAI Codex",
         "description": "النموذج الذي يشغل GitHub Copilot، قادر على فهم وإنشاء الأكواد البرمجية.",
         "url": "https://openai.com/blog/openai-codex",
         "category": "dev-code-assistants",
@@ -1743,21 +1747,23 @@ export default [
     },
     {
         "name": "Tabnine",
-        "description": "مساعد ذكاء اصطناعي يسرع كتابة الكود ويتعلم من أسلوبك لتقديم اقتراحات مخصصة.",
+        "description": "مساعد برمجة بالذكاء الاصطناعي يركز على خصوصية الكود والتخصيص للمؤسسات، مع دعم لنماذج متعددة.",
         "url": "https://www.tabnine.com/",
         "category": "dev-code-assistants",
         "tags": [
             "code-assistant",
             "autocomplete",
-            "ide-extension",
-            "personalization"
+            "enterprise-ai",
+            "ide-extension"
         ],
         "details": {
-            "pricingSummary": "خطة مجانية متاحة، مع خطة مدفوعة لميزات متقدمة.",
+            "pricingSummary": "خطة مجانية، وخطة للمطورين (تبدأ من 12$/شهر)، وخطة للمؤسسات مع خيارات تشغيل محلية.",
             "keyFeatures": [
-                "إكمال أسطر كاملة من الكود",
-                "يتعلم من الكود الخاص بك لتقديم اقتراحات مخصصة",
-                "يعمل محليًا لضمان خصوصية الكود"
+                "تركيز قوي على أمان وخصوصية الكود مع خيارات تشغيل محلية (on-premise).",
+                "دعم لمجموعة واسعة من نماذج اللغة الكبيرة، مع إمكانية توصيل نماذج خاصة.",
+                "ميزات جديدة مثل 'Inline AI Actions' لتعديل الكود مباشرة.",
+                "وكلاء متخصصون مثل 'Onboarding Agent' و 'Code Review Agent'.",
+                "يتعلم من أسلوب المطور وفريقه لتقديم اقتراحات مخصصة."
             ]
         }
     },

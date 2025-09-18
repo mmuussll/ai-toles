@@ -1,0 +1,18 @@
+# هذا الملف يحدد المسؤولين عن مراجعة التغييرات في المشروع
+# تعلم المزيد: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# المسؤولون الافتراضيون عن جميع الملفات
+* @username
+
+# المسؤولون عن ملفات البيانات
+/tools/ @username
+data.js @username
+updated_data.js @username
+
+# المسؤولون عن ملفات الواجهة
+index.html @username
+style.css @username
+main.js @username
+
+# المسؤولون عن السكريبتات
+*.js @username

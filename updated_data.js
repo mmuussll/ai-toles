@@ -1,4 +1,34 @@
 export const categories = [
+    { "id": "dev-main", "title": "الذكاء الاصطناعي الأساسي والتطوير", "type": "header" },
+    { "id": "dev-ai-models", "title": "نماذج الذكاء الاصطناعي" },
+    { "id": "dev-ai-infra", "title": "البنية التحتية للذكاء الاصطناعي" },
+    { "id": "dev-code-assistants", "title": "مساعدات البرمجة والتطوير" },
+    { "id": "dev-app-builders", "title": "بناء التطبيقات والمواقع" },
+    { "id": "dev-testing-review", "title": "اختبار ومراجعة الكود" },
+    { "id": "dev-data-science", "title": "علم البيانات والتعلم الآلي" },
+    { "id": "dev-web-automation", "title": "أتمتة وكشط الويب" },
+
+    { "id": "content-main", "title": "إنشاء المحتوى والوسائط", "type": "header" },
+    { "id": "content-writing", "title": "الكتابة والتحرير" },
+    { "id": "content-images-art", "title": "الصور والفن الرقمي" },
+    { "id": "content-video-animation", "title": "الفيديو والرسوم المتحركة" },
+    { "id": "content-audio-music", "title": "الصوت والموسيقى" },
+
+    { "id": "business-main", "title": "الأعمال والإنتاجية", "type": "header" },
+    { "id": "business-productivity-office", "title": "الإنتاجية والمكتب" },
+    { "id": "business-marketing-sales", "title": "التسويق والمبيعات" },
+    { "id": "business-operations", "title": "عمليات الأعمال" },
+
+    { "id": "lifestyle-main", "title": "الحياة الشخصية والتعليم", "type": "header" },
+    { "id": "lifestyle-education-research", "title": "التعليم والبحث" },
+    { "id": "lifestyle-health-wellness", "title": "الصحة والعافية" },
+    { "id": "lifestyle-daily-entertainment", "title": "الحياة اليومية والترفيه" },
+
+    { "id": "industry-main", "title": "صناعات متخصصة", "type": "header" },
+    { "id": "industry-design-engineering", "title": "التصميم والهندسة" },
+    { "id": "industry-science-medicine", "title": "العلوم والطب" },
+    { "id": "industry-finance-real-estate", "title": "المال والعقارات" },
+    { "id": "industry-web3-blockchain", "title": "الويب 3 والبلوكتشين" }
 ];
 
 export const tools = [
@@ -7,6 +37,41 @@ export const tools = [
     "description": "يترجم النصوص والمحادثات بلغات متعددة بدقة عالية.",
     "url": "https://www.deepl.com",
     "category": "dev-ai-models"
+  },
+  {
+    "name": "Codeium",
+    "description": "مساعد برمجة مجاني وسريع يدعم مجموعة واسعة من اللغات والإطارات البرمجية مع تكامل قوي مع بيئات التطوير.",
+    "url": "https://codeium.com",
+    "category": "dev-code-assistants",
+    "tags": ["code-assistant", "free", "autocomplete", "developer-tools"]
+  },
+  {
+    "name": "Amazon CodeWhisperer",
+    "description": "رفيق الترميز من أمازون، يقدم اقتراحات للكود في الوقت الفعلي مع ميزات أمان متقدمة وتحليل الثغرات.",
+    "url": "https://aws.amazon.com/codewhisperer/",
+    "category": "dev-code-assistants",
+    "tags": ["code-assistant", "aws", "security", "developer-tools"]
+  },
+  {
+    "name": "Replit Ghostwriter",
+    "description": "مساعد برمجي متكامل داخل بيئة تطوير Replit للمساعدة في كتابة وتصحيح الكود وشرحه.",
+    "url": "https://replit.com/site/ghostwriter",
+    "category": "dev-code-assistants",
+    "tags": ["code-assistant", "replit", "debugging", "code-completion"]
+  },
+  {
+    "name": "Cody",
+    "description": "مساعد ترميز بالذكاء الاصطناعي من Sourcegraph يفهم قاعدة التعليمات البرمجية الكاملة الخاصة بك ويساعد في كتابتها وشرحها.",
+    "url": "https://sourcegraph.com/cody",
+    "category": "dev-code-assistants",
+    "tags": ["code-assistant", "code-search", "repository-analysis", "sourcegraph"]
+  },
+  {
+    "name": "MutableAI",
+    "description": "منصة سحابية لمساعدات البرمجة تقدم اقتراحات ترميز ومساعدة في تصحيح الأخطاء وتحسين الأداء.",
+    "url": "https://mutable.ai",
+    "category": "dev-code-assistants",
+    "tags": ["code-assistant", "cloud-based", "debugging", "optimization"]
   },
   {
     "name": "Character.AI",
@@ -141,7 +206,7 @@ export const tools = [
     "category": "dev-ai-infra"
   },
   {
-    "name": "",
+    "name": "OpenAI Codex",
     "description": "النموذج الذي يشغل GitHub Copilot، قادر على فهم وإنشاء الأكواد البرمجية.",
     "url": "https://openai.com/blog/openai-codex",
     "category": "dev-code-assistants"
@@ -484,7 +549,7 @@ export const tools = [
   },
   {
     "name": "Nightwatch.js",
-    "description": "إطار عمل للاختبار الآلي مدعوم بـ Node.js.",
+    "description": "إطار عمل لاختبار الآلي مدعوم بـ Node.js.",
     "url": "https://nightwatchjs.org/",
     "category": "dev-code-assistants"
   },
@@ -1299,6 +1364,20 @@ export const tools = [
     "category": "content-images-art"
   },
   {
+    "name": "Figma AI",
+    "description": "أدوات ذكاء اصطناعي مدمجة في Figma للمساعدة في تصميم واجهات المستخدم وإنشاء النماذج الأولية بسرعة.",
+    "url": "https://www.figma.com/ai/",
+    "category": "industry-design-engineering",
+    "tags": ["design", "ui-ux", "prototyping", "figma"]
+  },
+  {
+    "name": "Microsoft Designer",
+    "description": "أداة تصميم جرافيك مدعومة بالذكاء الاصطناعي من مايكروسوفت لإنشاء تصاميم بسرعة باستخدام الأوامر النصية.",
+    "url": "https://designer.microsoft.com",
+    "category": "industry-design-engineering",
+    "tags": ["graphic-design", "microsoft", "ai-design", "templates"]
+  },
+  {
     "name": "Animoto",
     "description": "منصة لإنشاء فيديوهات احترافية من الصور والفيديو والنصوص.",
     "url": "https://animoto.com",
@@ -1363,6 +1442,20 @@ export const tools = [
     "description": "نموذج توليد الصور من OpenAI مدمج في ChatGPT Plus.",
     "url": "https://openai.com/dall-e-3",
     "category": "content-images-art"
+  },
+  {
+    "name": "Leonardo AI",
+    "description": "منصة توليد الصور والفنون باستخدام نماذج متقدمة مع إمكانية تدريب نماذج مخصصة وخلق أصول للألعاب.",
+    "url": "https://leonardo.ai",
+    "category": "content-images-art",
+    "tags": ["image-generation", "art", "custom-models", "gaming-assets"]
+  },
+  {
+    "name": "Stable Diffusion 3",
+    "description": "أحدث إصدار من نموذج Stable Diffusion مفتوح المصدر لتوليد الصور عالية الجودة بدقة محسنة.",
+    "url": "https://stability.ai",
+    "category": "content-images-art",
+    "tags": ["image-generation", "open-source", "high-quality", "text-to-image"]
   },
   {
     "name": "Deep Dream Generator",
@@ -1522,7 +1615,7 @@ export const tools = [
   },
   {
     "name": "NVIDIA Canvas",
-    "description": "تطبيق يحول الرسوم التخطيطية البسيطة إلى لوحات طبيعية واقعية.",
+    "description": "تطبيق يحول الرسومات التخطيطية البسيطة إلى لوحات طبيعية واقعية.",
     "url": "https://www.nvidia.com/en-us/studio/canvas/",
     "category": "content-images-art"
   },
@@ -1917,6 +2010,27 @@ export const tools = [
     "category": "business-productivity-office"
   },
   {
+    "name": "Notion AI",
+    "description": "مساعد ذكاء اصطناعي مدمج في مساحة عمل Notion لإنشاء المحتوى وتلخيصه وتنظيمه وتحسين الإنتاجية.",
+    "url": "https://www.notion.so/product/ai",
+    "category": "business-productivity-office",
+    "tags": ["productivity", "note-taking", "ai-assistant", "workspace"]
+  },
+  {
+    "name": "Microsoft 365 Copilot",
+    "description": "مساعد ذكاء اصطناعي متكامل في تطبيقات Microsoft 365 (Word, Excel, PowerPoint) لتحسين الإنتاجية وتحليل البيانات.",
+    "url": "https://www.microsoft.com/microsoft-365/microsoft-365-copilot",
+    "category": "business-productivity-office",
+    "tags": ["productivity", "microsoft", "office-suite", "ai-assistant"]
+  },
+  {
+    "name": "Slack AI",
+    "description": "مساعد ذكاء اصطناعي مدمج في Slack لتقديم ملخصات تلقائية للقنوات والمحادثات وتحسين التواصل بين الفرق.",
+    "url": "https://slack.com/features/ai",
+    "category": "business-productivity-office",
+    "tags": ["communication", "team-collaboration", "summarization", "slack"]
+  },
+  {
     "name": "MindMeister",
     "description": "أداة لإنشاء الخرائط الذهنية عبر الإنترنت تساعد في تحديد الأهداف وتخطيط المشاريع.",
     "url": "https://www.mindmeister.com/",
@@ -2275,6 +2389,20 @@ export const tools = [
     "description": "أداة مجانية من Google لتحليل حركة المرور وسلوك الزوار على المواقع والتطبيقات.",
     "url": "https://analytics.google.com",
     "category": "business-marketing-sales"
+  },
+  {
+    "name": "Jasper",
+    "description": "أداة متقدمة لإنشاء المحتوى التسويقي والمدونات والبريد الإلكتروني باستخدام الذكاء الاصطناعي مع قوالب مخصصة لكل منصة.",
+    "url": "https://jasper.ai",
+    "category": "content-writing",
+    "tags": ["content-generation", "marketing", "copywriting", "blog-writing"]
+  },
+  {
+    "name": "Rytr",
+    "description": "منصة متكاملة لإنشاء المحتوى باللغة العربية والإنجليزية مع دعم لأكثر من 40 حالة استخدام مختلفة.",
+    "url": "https://rytr.me",
+    "category": "content-writing",
+    "tags": ["content-generation", "multilingual", "writing-assistant", "arabic-ai"]
   },
   {
     "name": "Heepsy",
@@ -3013,6 +3141,20 @@ export const tools = [
     "description": "أداة مجانية ومفتوحة المصدر لإدارة المراجع والأدلة البحثية وتنظيمها.",
     "url": "https://www.zotero.org",
     "category": "lifestyle-education-research"
+  },
+  {
+    "name": "Gamma",
+    "description": "منصة لإنشاء العروض التقديمية والمستندات وصفحات الويب من خلال النصوص والأوامر البسيطة مع دعم الذكاء الاصطناعي.",
+    "url": "https://gamma.app",
+    "category": "business-productivity-office",
+    "tags": ["presentations", "documents", "ai-generation", "productivity"]
+  },
+  {
+    "name": "Humata",
+    "description": "مساعد بحثي ذكي يساعدك في فهم وتحليل ملفات PDF الكبيرة والمستندات البحثية بسرعة.",
+    "url": "https://www.humata.ai",
+    "category": "lifestyle-education-research",
+    "tags": ["research-assistant", "pdf-analysis", "document-understanding", "academic"]
   },
   {
     "name": "Ada",

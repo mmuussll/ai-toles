@@ -1,0 +1,18 @@
+{
+  "name": "رفيق الطالب - فهرس أدوات الذكاء الاصطناعي",
+  "short_name": "رفيق الطالب",
+  "description": "فهرس شامل لأدوات الذكاء الاصطناعي",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4285f4",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "lang": "ar-SA",
+  "dir": "rtl"
+}

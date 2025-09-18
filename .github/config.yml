@@ -1,0 +1,23 @@
+# Configuration for welcome - https://github.com/behaviorbot/welcome
+
+# Comment to be posted to on first time issues
+newIssueWelcomeComment: >
+  شكرًا لك على فتح هذه المشكلة! سنقوم بمراجعتها قريبًا.
+
+# Comment to be posted to on PRs from first time contributors in your repository
+newPRWelcomeComment: >
+  شكرًا لك على مساهمتك الأولى! سنقوم بمراجعة طلب السحب الخاص بك قريبًا.
+
+# Comment to be posted to on pull requests merged by a first time user
+firstPRMergeComment: >
+  تهانينا على دمج طلب السحب الأول الخاص بك! نحن نقدر مساهمتك في تحسين المشروع.
+
+# Configuration for sentiment-bot - https://github.com/behaviorbot/sentiment-bot
+
+# *Required* toxicity threshold between 0 and .99 with the higher numbers being the most toxic
+# Anything higher than this threshold will be marked as toxic and commented on
+sentimentBotToxicityThreshold: .7
+
+# *Required* Comment to reply with
+sentimentBotReplyComment: >
+  نحن نقدر مساهمتك، ولكن يرجى الحفاظ على لغة محترمة وبناءة في المناقشات.

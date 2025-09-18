@@ -1,0 +1,34 @@
+{
+  "name": "rafiq-altalib",
+  "version": "1.0.0",
+  "description": "فهرس شامل لأدوات الذكاء الاصطناعي",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "check-duplicates": "node check_duplicates.js"
+  },
+  "keywords": [
+    "ai",
+    "tools",
+    "directory",
+    "catalog",
+    "artificial intelligence"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/rafiq-altalib.git"
+  },
+  "bugs": {
+    "url": "https://github.com/username/rafiq-altalib/issues"
+  },
+  "homepage": "https://github.com/username/rafiq-altalib#readme"
+}
